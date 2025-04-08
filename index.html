@@ -32,6 +32,16 @@
             href="./index.html"
             >Web<span class="header-logo-studio">Studio</span></a
           >
+          <button
+            class="header-menu-btn"
+            type="button">
+            <svg
+              class="header-menu-btn-icon"
+              width="24"
+              height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
 
           <ul class="header-navigation-list">
             <li class="header-navigation-item">
@@ -77,7 +87,7 @@
         </address>
       </div>
     </header>
-    <main>
+    <!-- <main>
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">
@@ -167,6 +177,10 @@
               <img
                 class="team-image"
                 src="./images/mark-guerrero.jpg"
+                srcset="
+                  ./images/mark-guerrero.jpg    1x,
+                  ./images/mark-guerrero@2x.jpg 2x
+                "
                 alt="Mark Guerrero"
                 width="264"
                 height="260" />
@@ -229,6 +243,7 @@
               <img
                 class="team-image"
                 src="./images/tom-ford.jpg"
+                srcset="./images/tom-ford.jpg 1x, ./images/tom-ford@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260" />
@@ -291,6 +306,10 @@
               <img
                 class="team-image"
                 src="./images/camila-garcia.jpg"
+                srcset="
+                  ./images/camila-garcia.jpg    1x,
+                  ./images/camila-garcia@2x.jpg 2x
+                "
                 alt="Camila Garcia"
                 width="264"
                 height="260" />
@@ -353,6 +372,10 @@
               <img
                 class="team-image"
                 src="./images/daniel-wilson.jpg"
+                srcset="
+                  ./images/daniel-wilson.jpg    1x,
+                  ./images/daniel-wilson@2x.jpg 2x
+                "
                 alt="Daniel Wilson"
                 width="264"
                 height="260" />
@@ -423,6 +446,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/img-1.jpg"
+                  srcset="./images/img-1.jpg 1x, ./images/img-1@2x.jpg 2x"
                   alt="Banking App"
                   width="360"
                   height="300" />
@@ -442,6 +466,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/img-2.jpg"
+                  srcset="./images/img-2.jpg 1x, ./images/img-2@2x.jpg 2x"
                   alt="Cashless Payment"
                   width="360"
                   height="300" />
@@ -464,6 +489,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/img-3.jpg"
+                  srcset="./images/img-3.jpg 1x, ./images/img-3@2x.jpg 2x"
                   alt="Meditation App"
                   width="360"
                   height="300" />
@@ -485,6 +511,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/img-4.jpg"
+                  srcset="./images/img-4.jpg 1x, ./images/img-4@2x.jpg 2x"
                   alt="Taxi Service"
                   width="360"
                   height="300" />
@@ -506,6 +533,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/img-5.jpg"
+                  srcset="./images/img-5.jpg 1x, ./images/img-5@2x.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                   height="300" />
@@ -527,6 +555,7 @@
                 <img
                   class="portfolio-image"
                   src="./images/img-6.jpg"
+                  srcset="./images/img-6.jpg 1x, ./images/img-6@2x.jpg 2x"
                   alt="Online Courses"
                   width="360"
                   height="300" />
@@ -546,8 +575,8 @@
           </ul>
         </div>
       </section>
-    </main>
-    <footer class="footer">
+    </main> -->
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-text-box">
           <a
@@ -640,8 +669,113 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div
+    </footer> -->
+    <div class="backdrop-menu">
+      <div class="menu">
+        <button
+          class="menu-close-btn"
+          type="button">
+          <svg
+            class="menu-close-btn-icon"
+            width="8"
+            height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a
+              class="menu-item-link"
+              href=""
+              >Studio</a
+            >
+          </li>
+          <li class="menu-item">
+            <a
+              class="menu-item-link"
+              href=""
+              >Portfolio</a
+            >
+          </li>
+          <li class="menu-item">
+            <a
+              class="menu-item-link"
+              href=""
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <address class="menu-address">
+          <ul class="menu-address-list">
+            <li class="menu-address-item">
+              <a
+                class="menu-address-link"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="menu-address-item">
+              <a
+                class="menu-address-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="menu-soc-list">
+          <li class="menu-soc-item">
+            <a
+              class="menu-soc-link"
+              href="">
+              <svg
+                class="menu-soc-icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-soc-item">
+            <a
+              class="menu-soc-link"
+              href="">
+              <svg
+                class="menu-soc-icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-soc-item">
+            <a
+              class="menu-soc-link"
+              href="">
+              <svg
+                class="menu-soc-icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-soc-item">
+            <a
+              class="menu-soc-link"
+              href="">
+              <svg
+                class="menu-soc-icon"
+                width="24"
+                height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div
       class="backdrop"
       data-modal>
       <div class="modal">
@@ -765,7 +899,7 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
