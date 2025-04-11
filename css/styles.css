@@ -827,6 +827,7 @@ button {
 }
 
 .footer-soc-box {
+  margin: 0 auto;
 }
 
 .footer-soc-text {
@@ -942,12 +943,17 @@ button {
 @media screen and (min-width: 768px) {
   .footer-container {
     gap: 72px 24px;
+    justify-content: center;
   }
 
   .footer-logo,
   .footer-subscription-text,
   .footer-soc-text {
     text-align: left;
+  }
+
+  .footer-soc-box {
+    margin: 0;
   }
 
   .footer-form {
