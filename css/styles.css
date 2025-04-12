@@ -943,7 +943,7 @@ button {
 @media screen and (min-width: 768px) {
   .footer-container {
     gap: 72px 24px;
-    justify-content: center;
+    width: 528px;
   }
 
   .footer-logo,
@@ -971,6 +971,10 @@ button {
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .footer-container {
+    width: 1158px;
   }
 
   .footer-text-box {
